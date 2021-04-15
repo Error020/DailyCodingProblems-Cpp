@@ -75,7 +75,7 @@ int main() {
 
 	reReturn re = reArrange(str);	// create Object with reArrange's return value as Elements
 
-	std::cout << ::std::endl << re.str << ::std::endl << "\t es wurde so oft versucht : " << re.tries << ::std::endl;	// console output
+	std::cout << ::std::endl << re.str << ::std::endl << "\t it was tried so many times : : " << re.tries << ::std::endl;	// console output
 
 	return 0;
 }
