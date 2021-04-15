@@ -35,10 +35,10 @@ public:
 		vector.push_back(Key(key, value));		// push_back appends an element to the vector
 	}
 
-	int sum(std::string key) {
+	int sum(std::string prefix) {
 		int re = 0;			// it'll be the returned integer
 		for (int i = 0; i < vector.size(); i++) {		// size returns the size of the vector
-			if (vector.at(i).key.rfind(key, 0) == 0) {	// at returns the i'nd Element in the vector and 
+			if (vector.at(i).key.rfind(prefix, 0) == 0) {	// at returns the i'nd Element in the vector and 
 														// rfind(key, 0) returns if it finds the key in the string starting at the 0'th letter 
 				re += vector.at(i).value;
 			}
