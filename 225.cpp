@@ -25,7 +25,7 @@ int last_exec(int N, int k) {
 
 	while (!prisoners.empty()) {
 		next_exec_index = (next_exec_index + k - 1) % prisoners.size();	// (0 + 2(k) - 1) = 1 so 1 % 5 = 1
-																		// it's more obvious on the second or third iteration : (1 + 2(k) - 1) % 4 = 2
+										// it's more obvious on the second or third iteration : (1 + 2(k) - 1) % 4 = 2
 		last_exec = prisoners[next_exec_index];							// our return value
 		prisoners.erase(prisoners.begin() + next_exec_index);			// erase a specific element from list
 	}
