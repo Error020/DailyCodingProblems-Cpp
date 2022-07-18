@@ -15,8 +15,8 @@ int main() {
 		for (char c : word) {
 			if (characters.empty() != 1) {
 				bool found = false;
-				for (int i = 0; i < characters.size(); i++) {
-					if (characters[i] == c) {
+				for (char character : characters) {
+					if (character == c) {
 						found = true;
 					}
 				}
