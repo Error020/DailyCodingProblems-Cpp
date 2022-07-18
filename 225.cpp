@@ -17,7 +17,7 @@ int last_exec(int N, int k) {
 	int next_exec_index = NULL;
 	int buff;
 
-	std::vector<int> prisoners;			// I don't know why but I decided to use vector
+	std::vector<int> prisoners;			// I decided to use vector because it's dynamical
 
 	for (int i = 1; i < N+1; i++) {
 		prisoners.push_back(i);			// just a push of an iteration like this {1, 2, 3, 4, 5}
