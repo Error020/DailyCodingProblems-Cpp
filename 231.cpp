@@ -79,3 +79,5 @@ int main() {
 
 	return 0;
 }
+
+// edit almost a year later: By looking at the code it's really spaghetti like but like a wise man once said "It just works!"
