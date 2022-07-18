@@ -1,4 +1,4 @@
-# DailyCodingProblems-C-
+# DailyCodingProblems-Cpp
 
 Coding Problems from https://www.dailycodingproblem.com/
 I use them to practice.
