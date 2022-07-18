@@ -28,7 +28,7 @@ public:
 		Key(std::string key, int value) : key(key), value(value) {}		// constructor
 	};
 
-	std::vector<Key> vector;	// idk vector is working properly so why not? and it's comfortable because of it's methods like push_back or at in this case
+	std::vector<Key> vector;	// vector is dynamic
 
 
 	void insert(std::string key, int value) {
