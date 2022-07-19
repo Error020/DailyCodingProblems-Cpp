@@ -30,3 +30,6 @@ int main() {
 	}
 	return 0;
 }
+
+// The only division I needed was to get the size of the array but 
+// I could simply get the size without any divisions by using a for loop with the : operator I don't know if that counts anyways so yes that's it
