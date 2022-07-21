@@ -116,5 +116,6 @@ int main() {
 	return 0;
 }
 
-// serializing into a string? are they crazy? xD would've been easier in another language.
-// It would have taken me longer than a day if I had done it alone.
+// serializing into binary would've been way easier and I didn't want to store binary 
+// in a string because I thought it'd be cheating.
+// I needed help on that one... It would have taken me longer than a day if I had done it alone.
