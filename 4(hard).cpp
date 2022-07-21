@@ -34,4 +34,4 @@ int main() {
 
 // this took me way longer that it should have... I hope it's okay that I used vector instead 
 // of an array but it wouldn't have been that much of a difference anyways I just wanted it because 
-// vector has variable amount of items.
+// I don't have to specify the max amount of elements
