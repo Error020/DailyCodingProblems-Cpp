@@ -10,7 +10,7 @@
 #include <iostream>
 #include <vector>
 
-int findlowestpositiveint(std::vector<int> vec) {
+int findit(std::vector<int> vec) {
 
 	int re = 1;
 
@@ -27,11 +27,11 @@ int main() {
 	std::vector<int> vec = { 3, 4, -1, 1 };
 	
 
-	std::cout << findlowestpositiveint(vec);
+	std::cout << findit(vec);
 
 	return 0;
 }
 
 // this took me way longer that it should have... I hope it's okay that I used vector instead 
-// of an array but it would've been that much of a difference anyways I just wanted it because 
+// of an array but it wouldn't have been that much of a difference anyways I just wanted it because 
 // vector has variable amount of items.
