@@ -44,4 +44,4 @@ int main() {
 	return 0;
 }
 
-// medium??? I guess it would be if I wouldn't be used to a language like c++
+// medium??? I guess it would be if I wasn't used to a language like c++
