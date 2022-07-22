@@ -10,7 +10,7 @@
 //     return f(a, b)
 //     return pair
 
-//     Implement car and cdr.
+// Implement car and cdr.
 
 
 #include <iostream>
@@ -45,3 +45,4 @@ int main() {
 }
 
 // medium??? I guess it would be if I wasn't used to a language like c++
+// did I get it wrong?
